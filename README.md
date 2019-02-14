@@ -1,12 +1,14 @@
 # VECO Rental
 
+## 0.0.3 - Platen
+
+Se ajustan los contenidos de forma basica
+
+* [FIXED] Se optimiza la plantilla
+
 ## 0.0.3 - Pretty Bones
 
-### Changelog
-
-Se instala el tema webuilder
-
-## Tecnologias
+Se instala el tema Webuilder
 
 * [DOWNGRADE] Bootstrap (4.3.1) -> (3.3.7)
 * [NEW!] Revolution Slider (5.0)
@@ -22,16 +24,11 @@ Se instala el tema webuilder
 
 ## 0.0.2 - Bones
 
-### Tecnologias
+Presentamos la version 0.0.2 del proyecto que servira como esqueleto de la pagina web final:
 
+* [NEW!] Se creo una plantilla basica en Bootstrap usando sliders y containers
 * [NEW!] Favicon
 * [NEW!] Bootstrap (4.3.1)
 * [NEW!] jQuery (3.3.1)
 * [NEW!] Popper (1.14)
 * [NEW!] FontAwesome (5.7.2)
-
-### Changelog
-
-Presentamos la version 0.0.2 del proyecto que servira como esqueleto de la pagina web final:
-
-Se creo una plantilla basica en Bootstrap usando sliders y containers
