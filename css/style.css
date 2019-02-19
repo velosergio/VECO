@@ -170,7 +170,7 @@ iframe {
   content: "";
   width: 170px;
   height: 100px;
-  border: 6px solid #292c31;
+  border: 6px solid #79B51D;
   position: absolute;
   left: 47px;
   bottom: 10px;
@@ -357,7 +357,7 @@ iframe {
 }
 
 .header_top_area {
-  background: #1e2126;
+  background: #79B51D;
 }
 
 .header_top_area .pull-left a {
@@ -1105,7 +1105,7 @@ iframe {
 /* Get Quote area css
 ============================================================================================ */
 .get_quote_area {
-  background: #1e2126;
+  background: #002A74;
   padding: 25px 0px;
 }
 
@@ -1473,12 +1473,10 @@ iframe {
 
 /* End Chose Video area css
 ============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
 /* Our Service area css
 ============================================================================================ */
 .our_service_area {
-  background: #1e2126;
+  background: #002a74;
   overflow: hidden;
   clear: both;
 }

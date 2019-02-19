@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
         <title>Veco Rental</title>
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -33,8 +33,8 @@
             <div class="header_top_area">
                 <div class="container">
                     <div class="pull-left">
-                        <a href="#"><i class="fa fa-phone"></i>(+57) 316 740 80 00 | (+57) 1 676 28 86</a>
-                        <a href="#"><i class="fa fa-map-marker"></i>Bogotá, D.C. Colombia | Calle 222 No. 58 – 38</a>
+                        <a href="tel:+573167408000"><i class="fa fa-phone"></i>(+57) 316 740 80 00 | (+57) 1 676 28 86</a>
+                        <a href="#mapBox"><i class="fa fa-map-marker"></i>Bogotá, D.C. Colombia | Calle 222 No. 58 – 38</a>
                     </div>
                     <div class="pull-right">
                         <ul class="header_social">
@@ -231,7 +231,7 @@
                             </div>
                             <a href="#"><h4>Elevación</h4></a>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan-tium doloremque laudantium</p>
-                            <a class="view_btn" href="#">Ver Maquinas</a>
+                            <a class="view_btn" href="#maquinas">Ver Maquinas</a>
                         </div>
                     </div>
                     <div class="service_item">
@@ -339,85 +339,54 @@
                             </div>
                             <ul class="our_project_filter">
                                 <li class="active" data-filter="*"><a href="#">Todo</a></li>
-                                <li data-filter=".building"><a href="#">Elevación</a></li>
-                                <li data-filter=".interior"><a href="#">Carga</a></li>
-                                <li data-filter=".design"><a href="#">Izaje</a></li>
+                                <li data-filter=".elevacion"><a href="#">Elevación</a></li>
+                                <li data-filter=".carga"><a href="#">Carga</a></li>
+                                <li data-filter=".izaje"><a href="#">Izaje</a></li><!--
                                 <li data-filter=".isolation"><a href="#">Iluminación</a></li>
                                 <li data-filter=".plumbing"><a href="#">Transporte</a></li>
                                 <li data-filter=".tiling"><a href="#">Soldadura</a></li>
+                                <li data-filter=".prueba"><a href="#">DEMO</a></li>-->
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-9">
                         <div class="our_project_details">
-                            <div class="project_item building isolation tiling">
-                                <img src="img/project/project-1.jpg" alt="">
+                            <div class="project_item elevacion">
+                                <img src="img\maquinas\1a.jpg" alt="">
                                 <div class="project_hover">
                                     <div class="project_hover_inner">
                                         <div class="project_hover_content">
-                                            <a href="#"><h4>Jahanara Vila</h4></a>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-                                            <a class="view_btn" href="#">View Project</a>
+                                            <a href="nuestrasmaquinas\elevacion\120ft36.pdf"><h4>MANLIFT TELESCOPICO</h4></a>
+                                            <p><strong>FICHA TECNICA:</strong>
+                                            </br>INFORMACIÓN 1
+                                            </br>INFORMACIÓN 2
+                                            </br>INFORMACIÓN 3
+                                            </br>INFORMACIÓN 4</p>
+                                            <a class="view_btn" href="nuestrasmaquinas\elevacion\120ft36.pdf" target="_blank">Ver Más</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="project_item building isolation plumbing">
-                                <img src="img/project/project-2.jpg" alt="">
+                            <div class="project_item carga">
+                                <img src="img\maquinas\1b.jpg" alt="">
                                 <div class="project_hover">
                                     <div class="project_hover_inner">
                                         <div class="project_hover_content">
-                                            <a href="#"><h4>Jahanara Vila</h4></a>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-                                            <a class="view_btn" href="#">View Project</a>
+                                            <a href="#"><h4>Mini Dumper</h4></a>
+                                            <p>Dumpers de chasis articulado con tranmisión mecánica.</p>
+                                            <a class="view_btn" href="nuestrasmaquinas\carga\minidumper.pdf" target="_blank">Ver Más</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="project_item building interior design">
-                                <img src="img/project/project-3.jpg" alt="">
+                            <div class="project_item izaje">
+                                <img src="img\maquinas\1c.jpg" alt="">
                                 <div class="project_hover">
                                     <div class="project_hover_inner">
                                         <div class="project_hover_content">
-                                            <a href="#"><h4>Jahanara Vila</h4></a>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-                                            <a class="view_btn" href="#">View Project</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project_item interior isolation plumbing">
-                                <img src="img/project/project-4.jpg" alt="">
-                                <div class="project_hover">
-                                    <div class="project_hover_inner">
-                                        <div class="project_hover_content">
-                                            <a href="#"><h4>Jahanara Vila</h4></a>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-                                            <a class="view_btn" href="#">View Project</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project_item interior design tiling">
-                                <img src="img/project/project-5.jpg" alt="">
-                                <div class="project_hover">
-                                    <div class="project_hover_inner">
-                                        <div class="project_hover_content">
-                                            <a href="#"><h4>Jahanara Vila</h4></a>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-                                            <a class="view_btn" href="#">View Project</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project_item design plumbing tiling">
-                                <img src="img/project/project-6.jpg" alt="">
-                                <div class="project_hover">
-                                    <div class="project_hover_inner">
-                                        <div class="project_hover_content">
-                                            <a href="#"><h4>Jahanara Vila</h4></a>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-                                            <a class="view_btn" href="#">View Project</a>
+                                            <a href="#"><h4>Sanny STC 500</h4></a>
+                                            <p><strong>DATOS TECNICOS</strong></p>
+                                            <a class="view_btn" href="nuestrasmaquinas\izaje\stc500.pdf">Ver Más</a>
                                         </div>
                                     </div>
                                 </div>
@@ -427,7 +396,7 @@
                 </div>
             </div>
         </section>
-        <!--================End Our Project Area =================-->
+        <!--================End Nuestras Maquinas =================-->
         <!--================Work Area =================-->
         <section class="work_area">
             <div class="container">
@@ -563,7 +532,7 @@
         data-mlon="-74.1393991"></div>
         <!--================End Map Area =================-->
         <!--================Address Area =================-->
-        <section class="address_area">
+        <section class="address_area" id="contacto">
             <div class="container">
                 <div class="row address_inner">
                     <div class="col-md-4">
@@ -667,7 +636,7 @@
             <div class="footer_copy_right">
                 <div class="container">
                     <h4><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos son Reservados | Esta pagina fue diseñada por <a href="http://sergioveloza.com" target="_blank">Sergio Veloza</a>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos son Reservados.
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></h4>
                 </div>
             </div>

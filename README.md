@@ -1,6 +1,18 @@
 # VECO Rental
 
-## 0.0.3 - Platen
+## 0.0.5 - Green Passion
+
+Iniciamos cambios, esteticos y de contenido.
+
+* [NEW!] Accion de llamar cuando se preciona en el numero o telefono de la parte superior
+* [FIXED] Hipervinculos caidos
+* [FIXED] Favicon
+* [CHANGE] Paleta de colores
+* [NEW!] Se configuro las acciones para filtrar por tipo en mis maquinas
+* [NEW!] Se agrego informacion de imagenes y PDF's
+* [DELETE] Se eliminimo las demas plantilas
+
+## 0.0.4 - Platen
 
 Se ajustan los contenidos de forma basica
 
