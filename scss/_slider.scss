@@ -8,7 +8,6 @@
                     position: relative;
                     &:before{
                         content: "";
-                        background: rgba(0, 0, 0, .4);
                         position: absolute;
                         z-index: 8;
                         left: 0px;
@@ -157,11 +156,6 @@
     .flexslider{
         border: none;
         margin-bottom: 0px;
-        ul{
-            li{
-                
-            }
-        }
     }
     #carousel{
         padding: 0px 55px;

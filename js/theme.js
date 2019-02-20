@@ -516,7 +516,7 @@
                         "elementType": "all",
                         "stylers": [
                             {
-                                "color": "#fdea06"
+                                "color": "#79b51d"
                             },
                             {
                                 "visibility": "on"

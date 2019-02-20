@@ -311,8 +311,6 @@ iframe {
 
 /* End Our title css
 ============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
 /* Header area css
 ============================================================================================ */
 .main_header_area {
@@ -607,8 +605,6 @@ iframe {
 
 /* End Header area css
 ============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
 /* Main Slider area css
 ============================================================================================ */
 .main_slider_area .rev_slider .tp-revslider-mainul li .slotholder {
@@ -617,7 +613,7 @@ iframe {
 
 .main_slider_area .rev_slider .tp-revslider-mainul li .slotholder:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0);
   position: absolute;
   z-index: 8;
   left: 0px;
@@ -692,7 +688,6 @@ iframe {
   top: 0px;
   position: absolute;
   z-index: -1;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 .quoto_slider_area .quoto_slider_inner {
@@ -866,8 +861,6 @@ iframe {
 
 /* End Project Single Slider area css
 ============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
 /* Border get Button area css
 ============================================================================================ */
 .get_btn {
@@ -1100,8 +1093,6 @@ iframe {
 
 /* End get bg Button area css
 ============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
 /* Get Quote area css
 ============================================================================================ */
 .get_quote_area {
@@ -1162,7 +1153,7 @@ iframe {
 /* Address area css
 ============================================================================================ */
 .address_area {
-  background: #79B51D;
+  background: #FFFFFF;
   padding: 32px 0px;
 }
 
@@ -1178,14 +1169,14 @@ iframe {
   font-size: 22px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  color: #444444;
+  color: #79B51D;
 }
 
 .address_inner .media .media-body h5 {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  color: #444444;
+  color: #79B51D;
   padding-top: 7px;
 }
 
@@ -1270,8 +1261,6 @@ iframe {
 
 /* End Subscribe area css
 ============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
 /* Who We Are area css
 ============================================================================================ */
 .who_we_are_area {
@@ -1940,7 +1929,6 @@ iframe {
 
 .team_slider .team_item .team_image:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -2236,12 +2224,10 @@ iframe {
 
 /* End Our Team Slider2 area css
 ============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
 /* Counter area css
 ============================================================================================ */
 .counter_area {
-  background: #31353d;
+  background: #79b51d;
   padding: 60px 0px;
 }
 
@@ -3751,7 +3737,7 @@ iframe {
 /* Footer area css
 ============================================================================================ */
 .footer_widgets_area {
-  background: #31353d;
+  background: #79b51d;
   padding: 70px 0px;
 }
 
@@ -3773,7 +3759,7 @@ iframe {
   text-transform: uppercase;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  color: #79B51D;
+  color: #FFFFFF;
 }
 
 .about_widget p {
@@ -3850,7 +3836,7 @@ iframe {
 
 .give_us_widget h5 {
   font-size: 24px;
-  color: #79B51D;
+  color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -3858,7 +3844,7 @@ iframe {
   font-size: 32px;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  color: #79B51D;
+  color: #FFFFFF;
   padding: 23px 0px 12px 0px;
 }
 
@@ -3868,7 +3854,7 @@ iframe {
 
 .footer_copy_right {
   text-align: center;
-  background: #262a31;
+  background: #79b51d;
   padding: 41px 0px;
 }
 

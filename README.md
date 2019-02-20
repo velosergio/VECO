@@ -1,5 +1,21 @@
 # VECO Rental
 
+## 0.0.6 - Paiser Review
+
+En el cumpleaños del ñub, se corrigio errores conocidos y se siguio adaptando el contenido:
+
+* [UPDATE] Paleta de colores del Footer, Menu Hamburguesa y otras barras
+* [NEW!] Google Maps
+* [UPDATE] Barra de navegación
+* [UPDATE] Nueva seleccion de imagenes para el Slider
+* [DELETE] Opiniones de clientes
+* [DELETE] Estadisticas
+* [UPDATE] Imagenes del slider
+* [UPDATE] Imagen quienes somos
+* [UPDATE] Area de Nuestros Servicios
+* [UPDATE] Logos de nuestros clientes
+* [DELETE] Se elimino el efecto de opacidad del Banner
+
 ## 0.0.5 - Green Passion
 
 Iniciamos cambios, esteticos y de contenido.
@@ -7,7 +23,7 @@ Iniciamos cambios, esteticos y de contenido.
 * [NEW!] Accion de llamar cuando se preciona en el numero o telefono de la parte superior
 * [FIXED] Hipervinculos caidos
 * [FIXED] Favicon
-* [CHANGE] Paleta de colores
+* [UPDATE] Paleta de colores
 * [NEW!] Se configuro las acciones para filtrar por tipo en mis maquinas
 * [NEW!] Se agrego informacion de imagenes y PDF's
 * [DELETE] Se eliminimo las demas plantilas
