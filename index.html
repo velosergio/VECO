@@ -31,27 +31,6 @@
 
 <body data-gr-c-s-loaded="true">
     <!-- Navegacion -->
-    <nav class="navbar navbar-expand-lg py-0" style="background-color: #79B51D;">
-        <div class="container">
-            <div class="collapse navbar-collapse navMenu justify-content-between">
-                <div class="d-flex justify-content-end justify-content-lg-start pt-1 pt-lg-0">
-                    <ul class="navbar-nav d-flex flex-row">
-                        <li class="nav-item">
-                            <a href="tel:+573167408000" class="text-small nav-link px-2 text-white"><i class="fas fa-phone"></i> (+57) 316 740 80 00 | (+57) 1 676 28 86</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#mapBox" class="text-small nav-link px-2 text-white"><i class="fas fa-map-marker-alt"></i> Bogotá, D.C. Colombia | Calle 222 No. 58 – 38</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="py-1 d-flex align-items-center justify-content-end">
-                    <ul class="header_social">
-                        <li><a href="https://www.facebook.com/VecoRental/"><i class="fab fa-facebook-f"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
@@ -129,10 +108,47 @@
                 <div class="col-8">
                     <h4 class="text-white">¿Buscas un equipos asequibles y de calidad para su próximo proyecto?</h4>
                 </div>
-            <div class="col-4">
-                <a class="get_btn" href="#servicios">Nuestra oferta</a>
+                <div class="col-4">
+                    <button type="button" class="btn get_btn" data-toggle="modal" data-target="#escribenos">
+                        Escribenos
+                    </button>
+                    <div class="modal fade" id="escribenos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header border-bottom-0">
+                                    <h5 class="modal-title" id="exampleModalLabel">Escribenos</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <form id="escribenosform" name="formEscribenos" method="post" action="php/escribenos.php">
+                                    <div class="modal-body">
+                                        <div class="form-group">
+                                            <label for="name">Como te llamas?</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Tu Nombre" name="nombre">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="phone">Cual es tu numero de telefono</label>
+                                            <input type="number" class="form-control" id="phone" placeholder="Tu Numero de telefono" name="telefono">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Tu correo Electronico</label>
+                                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Tu email" name="correo">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="mensaje">Que requieres?</label>
+                                            <textarea class="form-control" rows="5" id="mensaje" name="mensaje"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer border-top-0 d-flex justify-content-center">
+                                        <button type="submit" class="btn btn-success">Enviar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
     </section>
     <div>
         <br>&nbsp;<br>
@@ -192,18 +208,22 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="f_content_item">
-                        <i class="fa fa-money" aria-hidden="true"></i>
-                        <a href="#">
-                            <h4>Izaje</h4>
-                        </a>
+                        <div class="polaroid">
+                            <img src="img/icon/izaje.svg" alt="5 Terre" style="width:50%">
+                            <div class="container">
+                                <p>Izaje</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="f_content_item">
-                        <i class="fa fa-money" aria-hidden="true"></i>
-                        <a href="#">
-                            <h4>Iluminacion</h4>
-                        </a>
+                        <div class="polaroid">
+                            <img src="img/icon/izaje.svg" alt="5 Terre" style="width:50%">
+                            <div class="container">
+                                <p>Izaje</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

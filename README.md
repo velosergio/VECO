@@ -1,5 +1,14 @@
 # VECO Rental
 
+## 0.0.8 - *Milena Changes*
+
+Esta version incluye cambios de forma y de fondo, luego de la revision con la junta de veco rental
+
+* **[DELETE]** Eliminada la pleca verde :(
+* **[DELETE]** Eliminados archivos que no se usaban en el proyecto
+* **[UPDATE]** Sliders del carrousel
+* **[NEW!]** Formulario de contacto usando modal de Bootstrap 4
+
 ## 0.0.7 - *Board Of Partners*
 
 Esta version tiene cambios de forma y fondo, hemos optimizado la pagina para la experiencia en moviles, acelerado los tiempos de carga
