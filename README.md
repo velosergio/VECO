@@ -1,8 +1,8 @@
 # VECO Rental
 
-## 0.0.8b - *Milena Changes*
+## 0.0.8c - *Milena Changes*
 
-Esta version incluye cambios de forma y de fondo, luego de la revision con la junta de veco rental
+Presentamos la version preliminar de la pagina, esta version incluye cambios de forma y de fondo, luego de la revision con la junta de veco rental
 
 * **[DELETE]** Eliminada la pleca verde :(
 * **[DELETE]** Eliminados archivos que no se usaban en el proyecto
@@ -13,6 +13,11 @@ Esta version incluye cambios de forma y de fondo, luego de la revision con la ju
 * **[NEW!]** Barras de progreso para las areas que trabaja veco rental *Agregado en la version B*
 * **[DELETE]** Area de Clientes *Agregado en la version B*
 * **[UPDATE]** Mapa *Agregado en la version B*
+* **[FIXED]** Responsive Behavior *Agregado en la version C*
+* **[DELETE]** Twitter API *Eliminado en la version C*
+* **[UPDATE]** Se actualizaron los iconos *Agregado en la version C*
+* **[NEW!]** Imagenes Maquinas *Agregado en la version C*
+* **[UPDATE]** Nuestras Maquinas, nuevas categorias _["Iluminacion" y "camiones"]_, hay 3 items por categoria, una de iluminacion y una de camiones *Agregado en la version C*
 
 ## 0.0.7 - *Board Of Partners*
 
@@ -67,7 +72,7 @@ Se ajustan los contenidos de forma basica
 
 Se instala el tema Webuilder
 
-* **[DOWNGRADE] Bootstrap (4.3.1) -> (3.3.7)
+* **[DOWNGRADE]** Bootstrap (4.3.1) -> (3.3.7)
 * **[NEW!]** Revolution Slider (5.0)
 * **[NEW!]** Animate.css (3.5.1)
 * **[NEW!]** Material Design Icons (3.4.93)
