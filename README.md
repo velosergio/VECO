@@ -1,5 +1,16 @@
 # VECO Rental
 
+## 0.1.0 - *Bacilos*
+
+Esta version es la primera version entregable de la pagina de forma funcional, inspirado en la cancion "Mi primer Millon"
+
+* **[UPDATE]** Distancia de 550px a 350px en los filtros de productos del index
+* **[UPDATE]** Se alineo al centro los items descriptivos del mapa
+* **[DELETE]** Se elimino productos.html
+* **[UPDATE]** Se agrego un efecto parallax a la imagen de quienes somos
+* **[NEW!]** Se agrego metadata relevante para mejorar el SEO
+* **[NEW!]** Se agrego Google Analytics
+
 ## 0.0.9 - *Trello Cards*
 
 Ajustamos todo para la primera version entregable, nos enfocamos en esta revision en la estabilidad, tiempos de carga, y optimizacion de los recursos, el codigo es ahora mas limpio y sin elementos inutiles:

@@ -5,7 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- SEO Optimization -->
+    <link rel="canonical" href="http://www.vecorental.com">
+    <meta name="description" content="¿Buscas maquinaria para tu proximo proyecto? En VecoRental Contamos con una amplia gama de maquinaria para diferentes industrias en los sectores de Petróleo, Infraestructura, Ingeniería civil, Entretenimiento, Minería, entre otros. ">
+    <meta name="distribution" content="global">
+    <meta name="keywords" content="alquiler, compra, petroleo, infraestructura, emilianaserbatoi, ingenieria, entretenimiento, mineria, equipos, maquinaria, construccion, carga, izaje, iluminacion, camabaja, transporte, soldadura">
+    <meta name="robots" content="follow">
     <title>Veco Rental</title>
     <!-- Iconos -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -18,6 +24,15 @@
     <link href="vendors/revolution/css/navigation.css" rel="stylesheet">
     <link href="vendors/animate-css/animate.css" rel="stylesheet">
     <link href="vendors/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135909100-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-135909100-1');
+    </script>
+
     <!-- Extra plugin css -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
@@ -59,44 +74,42 @@
     </nav>
     <!-- Fin de Navegacion -->
     <!-- Main Slider Area -->
-    <section>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="img\banner\slider1.png" alt="Primer slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img\banner\slider2.png" alt="Segundo slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img\banner\slider3.png" alt="Tercer slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img\banner\slider4.png" alt="Cuarto slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img\banner\slider5.png" alt="Quinto slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img\banner\slider6.png" alt="Sexto slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img\banner\slider7.png" alt="Septimo slide">
-                </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/banner/slider1.png" alt="Primer slide">
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Siguiente</span>
-            </a>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/banner/slider2.png" alt="Segundo slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/banner/slider3.png" alt="Tercer slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/banner/slider4.png" alt="Cuarto slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/banner/slider5.png" alt="Quinto slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/banner/slider6.png" alt="Sexto slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/banner/slider7.png" alt="Septimo slide">
+            </div>
         </div>
-    </section>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
     <!-- End Main Slider Area -->
     <!-- Quienes Somos -->
-    <section class="banner area" style="background: url(img/parallax_web2.jpg); background-size: cover;" id="quienessomos">
+    <section class="banner area" style="background: url(img/parallax_web2.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;" id="quienessomos">
         <div class="container">
             <div class="row who_we_inner">
                 <div class="col-md-3" style="background-color: rgba(255,255,255,.7)">
@@ -127,7 +140,7 @@
             <div class="row justify-content-md-center">
                 <div class="col">
                     <h3 class="out_title">Nuestros Servicios:</h3>
-                    </br>
+                    <br />
                 </div>
             </div>
             <div class="row">
@@ -136,7 +149,7 @@
                         <img src="img/icon/grua.svg" alt="5 Terre" style="width:50%">
                         <div class="container">
                             <p>Elevación</p>
-                            </br>
+                            <br />
                         </div>
                     </div>
                 </div>
@@ -145,7 +158,7 @@
                         <img src="img/icon/carga.svg" alt="5 Terre" style="width:50%">
                         <div class="container">
                             <p>Carga</p>
-                            </br>
+                            <br />
                         </div>
                     </div>
                 </div>
@@ -154,7 +167,7 @@
                         <img src="img/icon/izaje.svg" alt="5 Terre" style="width:50%">
                         <div class="container">
                             <p>Izaje</p>
-                            </br>
+                            <br />
                         </div>
                     </div>
                 </div>
@@ -163,7 +176,7 @@
                         <img src="img/icon/proyectores.svg" alt="5 Terre" style="width:50%">
                         <div class="container">
                             <p>Iluminación</p>
-                            </br>
+                            <br />
                         </div>
                     </div>
                 </div>
@@ -172,7 +185,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="f_content_item">
-                        </br>
+                        <br />
                         <img src="img/icon/coche.svg" alt="5 Terre" style="width:50%">
                         <div class="container">
                             <p>Transporte</p>
@@ -181,7 +194,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="f_content_item">
-                        </br>
+                        <br />
                         <img src="img/icon/maquina-soldadora.svg" alt="5 Terre" style="width:50%">
                         <div class="container">
                             <p>Soldadura</p>
@@ -190,7 +203,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="f_content_item">
-                        </br>
+                        <br />
                         <img src="img/icon/engineer.svg" alt="5 Terre" style="width:50%">
                         <div class="container">
                             <p>Servicios de Ingeniería</p>
@@ -198,6 +211,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <!-- Fin de Nuestros Servicios -->
     <!-- Nuestros Productos -->
@@ -220,14 +234,14 @@
                 <div class="col-md-9">
                     <div class="our_project_details">
                         <div class="project_item carrytank">
-                            <img src="img/productos/CarryTank_440 (1).png" alt="" style="width: 90%">
+                            <img src="img/productos/CarryTank_440_1.png" alt="" style="width: 90%">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
                                         <a href="fichas-tecnicas/productos/CarryTank_440.pdf">
                                             <h4>CarryTank 440</h4>
                                         </a>
-                                        <p><strong>FICHA TECNICA:</strong></br></p>
+                                        <p><strong>FICHA TECNICA:</strong><br /></p>
                                         <a class="view_btn" href="fichas-tecnicas/productos/CarryTank_440.pdf" target="_blank">Ver Más</a>
                                     </div>
                                 </div>
@@ -238,24 +252,24 @@
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <a href="fichas-tecnicas\productos\EMILCADDY_55-110_ADBLUE_ITA-ENG-204-2447.pdf">
+                                        <a href="fichas-tecnicas/productos/EMILCADDY_55-110_ADBLUE_ITA-ENG-204-2447.pdf">
                                             <h4>Emilcaddy AdBlue</h4>
                                         </a>
-                                        <p><strong>FICHA TECNICA:</strong></br></p>
-                                        <a class="view_btn" href="fichas-tecnicas\productos\EMILCADDY_55-110_ADBLUE_ITA-ENG-204-2447.pdf" target="_blank">Ver Más</a>
+                                        <p><strong>FICHA TECNICA:</strong><br /></p>
+                                        <a class="view_btn" href="fichas-tecnicas/productos/EMILCADDY_55-110_ADBLUE_ITA-ENG-204-2447.pdf" target="_blank">Ver Más</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="project_item emilcaddy">
-                            <img src="img\productos\Emilcaddy_Benzina.png" alt="" style="width: 90%">
+                            <img src="img/productos/Emilcaddy_Benzina.png" alt="" style="width: 90%">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
                                         <a href="fichas-tecnicas/productos/emilcaddyita-ing-13025.pdf">
                                             <h4>Emilcaddy Benzina</h4>
                                         </a>
-                                        <p><strong>FICHA TECNICA:</strong></br></p>
+                                        <p><strong>FICHA TECNICA:</strong><br /></p>
                                         <a class="view_btn" href="fichas-tecnicas/productos/emilcaddyita-ing-13025.pdf" target="_blank">Ver Más</a>
                                     </div>
                                 </div>
@@ -269,94 +283,94 @@
     <!-- Fin de nuestros productos -->
     <!-- Preguntas Frecuentes -->
     <div class="feature_content">
-    <div class="main_c_b_title">
-        <h2>Preguntas<br class="title_br">Frecuentes</h2>
-        <h6>Algunas preguntas frecuentes</h6>
-    </div>
-    <div class="panel-group project_collaps" id="accordion" role="tablist" aria-multiselectable="true" style="text-align: center">
-        <div class="container">
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
-                    <h4 class="panel-title">
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="" style="">
-                            ¿Qué información necesito para solicitar una cotización?
-                            <i class="fa fa-minus" aria-hidden="true"></i>
-                            <i class="fa fa-plus" aria-hidden="true"></i>
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true" style="">
-                    <div class="panel-body">
-                        Es muy sencillo. Lo primero para tener en cuenta es conocer qué tipo de maquinaria se requiere, así como su capacidad, alcance, tiempo en que será requerido y lugar de prestación del servicio. En caso de no tener definidos estos datos, puede que tenga los datos de la carga, peso, altura, diámetro o especificidades de la operación a realizar con esta información el personal de Veco podrá definir el equipo o bien visitas técnicas al lugar prestación del servicio para definir la maquinaria adecuada para la labor. <br />
-                        Una vez definidos los datos para solicitar la cotización es necesario enviar los datos de contacto, razón social, NIT, correo electrónico, dirección y teléfono con esta información Veco Rental podrá enviar la mejor cotización.
+        <div class="main_c_b_title">
+            <h2>Preguntas<br class="title_br">Frecuentes</h2>
+            <h6>Algunas preguntas frecuentes</h6>
+        </div>
+        <div class="panel-group project_collaps" id="accordion" role="tablist" aria-multiselectable="true" style="text-align: center">
+            <div class="container">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="" style="">
+                                ¿Qué información necesito para solicitar una cotización?
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true" style="">
+                        <div class="panel-body" style="text-align: justify">
+                            Es muy sencillo. Lo primero para tener en cuenta es conocer qué tipo de maquinaria se requiere, así como su capacidad, alcance, tiempo en que será requerido y lugar de prestación del servicio. En caso de no tener definidos estos datos, puede que tenga los datos de la carga, peso, altura, diámetro o especificidades de la operación a realizar con esta información el personal de Veco podrá definir el equipo o bien visitas técnicas al lugar prestación del servicio para definir la maquinaria adecuada para la labor. <br />
+                            Una vez definidos los datos para solicitar la cotización es necesario enviar los datos de contacto, razón social, NIT, correo electrónico, dirección y teléfono con esta información Veco Rental podrá enviar la mejor cotización.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingTwo">
-                    <h4 class="panel-title">
-                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="">
-                            ¿Qué información necesito para alquilar maquinaria de Veco Rental?
-                            <i class="fa fa-minus" aria-hidden="true"></i>
-                            <i class="fa fa-plus" aria-hidden="true"></i>
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
-                    <div class="panel-body">
-                        Una vez cotizado el servicio, el cliente deberá enviar contrato u orden de servicio con los términos de negociación, contenidos en la cotización y el soporte de pago de anticipo.
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="">
+                                ¿Qué información necesito para alquilar maquinaria de Veco Rental?
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
+                        <div class="panel-body" style="text-align: justify">
+                            Una vez cotizado el servicio, el cliente deberá enviar contrato u orden de servicio con los términos de negociación, contenidos en la cotización y el soporte de pago de anticipo.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingThree">
-                    <h4 class="panel-title">
-                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="">
-                            ¿Por cuánto tiempo puedo alquiler un equipo?
-                            <i class="fa fa-minus" aria-hidden="true"></i>
-                            <i class="fa fa-plus" aria-hidden="true"></i>
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" style="height: 0px;">
-                    <div class="panel-body">
-                        Los alquileres y las tarifas varían dependiendo el tiempo que el cliente pueda requerir el equipo, el tiempo mínimo de alquiler es un día y se puede extender por semana o mes por los meses que se requiera en total el alquiler.
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="">
+                                ¿Por cuánto tiempo puedo alquiler un equipo?
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" style="height: 0px;">
+                        <div class="panel-body" style="text-align: justify">
+                            Los alquileres y las tarifas varían dependiendo el tiempo que el cliente pueda requerir el equipo, el tiempo mínimo de alquiler es un día y se puede extender por semana o mes por los meses que se requiera en total el alquiler.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingfour">
-                    <h4 class="panel-title">
-                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour" style="">
-                            ¿Cómo se controla el tiempo de alquiler?
-                            <i class="fa fa-minus" aria-hidden="true"></i>
-                            <i class="fa fa-plus" aria-hidden="true"></i>
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour" aria-expanded="false" style="height: 0px;">
-                    <div class="panel-body">
-                        Los equipos de Veco Rental que son suministrados con operador, tendrán un formato e el que se registran las horas trabajadas a cobrar, en caso de no tener operador, se cobrará la tarifa plena según la negociación. Bajo ningún término el horómetro es herramienta para liquidación de alquileres.
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingfour">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour" style="">
+                                ¿Cómo se controla el tiempo de alquiler?
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour" aria-expanded="false" style="height: 0px;">
+                        <div class="panel-body" style="text-align: justify">
+                            Los equipos de Veco Rental que son suministrados con operador, tendrán un formato e el que se registran las horas trabajadas a cobrar, en caso de no tener operador, se cobrará la tarifa plena según la negociación. Bajo ningún término el horómetro es herramienta para liquidación de alquileres.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingfive">
-                    <h4 class="panel-title">
-                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapsefive" style="">
-                            ¿Qué productos ofrecen de la marca Emiliana Serbatoi?
-                            <i class="fa fa-minus" aria-hidden="true"></i>
-                            <i class="fa fa-plus" aria-hidden="true"></i>
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapsefive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive" aria-expanded="false" style="height: 0px;">
-                    <div class="panel-body">
-                        Manejamos toda la línea de productos de Emilina Serbatoi, tanques para transporte, tanques para suministro, tanques para enterrar, sistemas de suministro, línea ecológica (tanques para aspersión, kits de derrame, estibas antiderrame, etc), sistemas de control, Tanques para Urea – AdBlue, tanques para agua y cualquier solución de manufactura especial a la medida de sus necesidades.
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingfive">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapsefive" style="">
+                                ¿Qué productos ofrecen de la marca Emiliana Serbatoi?
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapsefive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive" aria-expanded="false" style="height: 0px;">
+                        <div class="panel-body" style="text-align: justify">
+                            Manejamos toda la línea de productos de Emilina Serbatoi, tanques para transporte, tanques para suministro, tanques para enterrar, sistemas de suministro, línea ecológica (tanques para aspersión, kits de derrame, estibas antiderrame, etc), sistemas de control, Tanques para Urea – AdBlue, tanques para agua y cualquier solución de manufactura especial a la medida de sus necesidades.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
+                <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingsix">
                         <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsesix" aria-expanded="false" aria-controls="collapsesix" style="">
@@ -367,12 +381,12 @@
                         </h4>
                     </div>
                     <div id="collapsesix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingsix" aria-expanded="false" style="height: 0px;">
-                        <div class="panel-body">
-                                Para la compra de productos de la marca Emiliana Serbatoi, el cliente deberá enviar orden de servicio con los términos de negociación, contenidos en la cotización y el soporte de pago de anticipo.
+                        <div class="panel-body" style="text-align: justify">
+                            Para la compra de productos de la marca Emiliana Serbatoi, el cliente deberá enviar orden de servicio con los términos de negociación, contenidos en la cotización y el soporte de pago de anticipo.
                         </div>
                     </div>
-            </div>
-            <div class="panel panel-default">
+                </div>
+                <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingseven">
                         <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseseven" aria-expanded="false" aria-controls="collapseseven" style="">
@@ -383,16 +397,16 @@
                         </h4>
                     </div>
                     <div id="collapseseven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingseven" aria-expanded="false" style="height: 0px;">
-                        <div class="panel-body">
-                                Para pedidos especiales o para productos que no estén en nuestro inventario actual, la importación tomará de 70 a 80 días calendario desde que el cliente envíe la orden de compra y pago de anticipo.
+                        <div class="panel-body" style="text-align: justify">
+                            Para pedidos especiales o para productos que no estén en nuestro inventario actual, la importación tomará de 70 a 80 días calendario desde que el cliente envíe la orden de compra y pago de anticipo.
                         </div>
                     </div>
+                </div>
+                <br />
+                <div class="border_bar"></div>
+                <br />
             </div>
-            <br />
-            <div class="border_bar"></div>
-            <br />
         </div>
-    </div>
     </div>
     <!-- Fin de preguntas frecuentes -->
     <!-- Cotizacion -->
@@ -445,17 +459,17 @@
                             </div>
                         </div>
                     </div>
-                    </br>
+                    <br />
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Work Area -->
-    <!-- Get Quote Area -->
+    <!-- Fin de cotizacion -->
+    <!-- Escribenos -->
     <section class="get_quote_area">
         <div class="container">
             <div class="row">
-                <div class="col align-middle" stlye="text-align: center;">
+                <div class="col">
                     <h4 class="text-white">¿Buscas un equipos asequibles y de calidad para su próximo proyecto?</h4>
                 </div>
                 <div class="col-md-auto" style="text-align: center;">
@@ -483,7 +497,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="email">Tu correo Electronico</label>
-                                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Tu email" name="correo">
+                                            <input type="email" class="form-control" id="email" placeholder="Tu email" name="correo">
                                         </div>
                                         <div class="form-group">
                                             <label for="mensaje">¿Que requieres?</label>
@@ -499,22 +513,23 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <div>
-        <br>&nbsp;<br>
+        <br />&nbsp;<br />
     </div>
-    <!-- End Get Quote Area -->
+    <!-- Fin de escribenos -->
     <!-- Map Area -->
     <div class="container-fluid" id="contacto">
         <div class="row">
             <div class="col">
-                <!--Google map-->
+                <!-- Google Maps -->
                 <div id="map-container-google-1" class="z-depth-1-half map-container">
-                    <iframe src="https://maps.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15903.238087134774!2d-74.0516686!3d4.8027355!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa886bd7739933f9!2sVECO+RENTAL!5e0!3m2!1ses-419!2sco!4v1551857772618" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://maps.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15903.238087134774!2d-74.0516686!3d4.8027355!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa886bd7739933f9!2sVECO+RENTAL!5e0!3m2!1ses-419!2sco!4v1551857772618" style="border:0" allowfullscreen></iframe>
                 </div>
-                <!--Google Maps-->
+                <!-- Fin de Google Maps-->
             </div>
-            <div class="col-md-auto">
+            <div class="col-md-auto" style="display: flex; justify-content: center; align-items: center;">
                 <!-- Descripcion -->
                 <ul class="list-unstyled">
                     <li class="media">
@@ -522,7 +537,7 @@
                         <div class="media-body">
                             <h4 class="mt-0 mb-1" style="color: #79B51D">Dirección :</h4>
                             <h5>Calle 222 No. 58 – 38 | Bogotá, D.C. Colombia</h5>
-                            </br>
+                            <br />
                         </div>
                     </li>
                     <li class="media">
@@ -531,7 +546,7 @@
                             <h4 class="mt-0 mb-1" style="color: #79B51D">Telefono :</h4>
                             <h5>(+57) 316 740 80 00</h5>
                             <h5>(+57) 1 676 28 86</h5>
-                            </br>
+                            <br />
                         </div>
                     </li>
                     <li class="media">
@@ -555,42 +570,13 @@
                         <aside class="f_widget about_widget">
                             <img src="img/logo-light.png" alt="">
                             <p>Contamos con una amplia gama de maquinaria para diferentes industrias en los sectores de Petróleo, Infraestructura, Ingeniería civil, Entretenimiento, Minería, entre otros.</p>
-                            <ul>
-                                <li><a href="https://www.facebook.com/VecoRental/"><i class="fab fa-facebook-f"></i></a></li>
-                            </ul>
                         </aside>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <aside class="f_widget address_widget">
                             <div class="f_w_title">
-                                <h3>Dirección :</h3>
-                            </div>
-                            <div class="address_w_inner">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <i class="fa fa-map-marker"></i>
-                                    </div>
-                                    <div class="media-body">
-                                        <p>Calle 222 No. 58 – 38 | Bogotá, D.C. Colombia</p>
-                                    </div>
-                                </div>
-                                <div class="media">
-                                    <div class="media-left">
-                                        <i class="fa fa-phone"></i>
-                                    </div>
-                                    <div class="media-body">
-                                        <p>(+57) 316 740 80 00</p>
-                                        <p>(+57) 1 676 28 86</p>
-                                    </div>
-                                </div>
-                                <div class="media">
-                                    <div class="media-left">
-                                        <i class="fa fa-envelope"></i>
-                                    </div>
-                                    <div class="media-body">
-                                        <p>ventas@vecorental.com</p>
-                                    </div>
-                                </div>
+                                <h3>Siguenos en Facebook:</h3><br />
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FVecoRental%2F&tabs&width=340&height=180&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1606910752931605" width="340" height="180" style="border:none;overflow:hidden"></iframe>
                             </div>
                         </aside>
                     </div>
