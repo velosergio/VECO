@@ -1,5 +1,16 @@
 # VECO Rental
 
+## 0.0.9 - *Trello Cards*
+
+Ajustamos todo para la primera version entregable, nos enfocamos en esta revision en la estabilidad, tiempos de carga, y optimizacion de los recursos, el codigo es ahora mas limpio y sin elementos inutiles:
+
+* **[FIXED]** Se corrigieron errores conocidos
+* **[UPDATE]** Descripcion de Veco Rental
+* **[NEW!]** *Maquinas:* Se ha creado esta pagina con un carrusel OWL que permite filtrar resultados. se agregaron todas las maquinas con sus respectivos PDF
+* **[NEW!]** *fichas-tecnicas:* ahora esta en el servidor las fichas tecnicas de los productos
+* **[NEW!]** *Preguntas Frecuentes* Ahora en el index hay 7 preguntas frecuentes en menu tipo acordeon
+* **[UPDATE]** Apartado de productos en el *Index*
+
 ## 0.0.8c - *Milena Changes*
 
 Presentamos la version preliminar de la pagina, esta version incluye cambios de forma y de fondo, luego de la revision con la junta de veco rental

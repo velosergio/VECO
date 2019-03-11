@@ -2102,7 +2102,6 @@ div.polaroid {
   max-width: 570px;
   display: inline-block;
   background: #79B51D;
-  float: left;
   min-height: 205px;
   padding: 20px 15px 20px 50px;
   position: relative;
@@ -2544,7 +2543,7 @@ div.polaroid {
 .project_collaps .panel-default .panel-heading {
   padding: 0px;
   border-color: #d5d5d5;
-  background: #fff;
+  background: #79B51D;
   border-radius: 0px;
 }
 
@@ -2552,16 +2551,15 @@ div.polaroid {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  color: #444444;
+  color: #FFF;
   padding: 16.5px 20px;
   display: block;
 }
 
 .project_collaps .panel-default .panel-heading .panel-title a i {
-  float: right;
   font-size: 20px;
   display: inline-block;
-  color: #79B51D;
+  color: #FFF;
 }
 
 .project_collaps .panel-default .panel-heading .panel-title a i + i {
@@ -2574,7 +2572,7 @@ div.polaroid {
 
 .project_collaps .panel-default .panel-heading .panel-title a.collapsed i + i {
   display: inline-block;
-  color: #626262;
+  color: #FFF;
 }
 
 .project_collaps .panel-default .panel-collapse .panel-body {
