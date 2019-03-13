@@ -1,5 +1,15 @@
 # VECO Rental
 
+## 0.1.0 - *Sintax*
+
+Esta version incluye revisiones a la sintaxis de la pagina ultimos cambios y correciones ortograficas
+
+* **[UPDATE]** *Index* - Correciones ortograficas y seccion nuestros productos
+* **[UPDATE]** *maquinas* - Correciones ortograficas
+* **[UPDATE]** *Fichas Tecnicas* - Nuevas fichas Tecnicas
+* **[UPDATE]** *Slider* - Slider 7 Actualizado
+* **[DELETE]** */productos* - Su informacion ahora se encuentra en /fichas-tecnicas
+
 ## 0.1.0 - *Bacilos*
 
 Esta version es la primera version entregable de la pagina de forma funcional, inspirado en la cancion "Mi primer Millon"
