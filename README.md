@@ -1,5 +1,17 @@
 # VECO Rental
 
+## 0.1.1 - *Veco Elders*
+
+Revisiones de la version entregables:
+
+* **[UPDATE]** *EQUIPOS* - Cambiar Maquinas por EQUIPOS
+* **[UPDATE]** *INDEX* - Quitar Empresa Familiar
+* **[UPDATE]** *INDEX* - Cambiar icono para Iluminacion
+* **[UPDATE]** *INDEX* - Quitar los %
+* **[UPDATE]** *EQUIPOS* - Cambiar imagen del Banner
+* **[UPDATE]** *EQUIPOS* - Bajar la tijera en el orden de equipos
+* **[UPDATE]** *EQUIPOS* - Reparar Links del navbar
+
 ## 0.1.0 - *Sintax*
 
 Esta version incluye revisiones a la sintaxis de la pagina ultimos cambios y correciones ortograficas
