@@ -1,5 +1,20 @@
 # VECO Rental
 
+## 0.1.2 - *Veco Delivery*
+
+Cambios para 0.1.2:
+
+* **[UPDATE]** *NAVBAR* - Agrandar el logo de Veco
+* **[FIXED]** *NAVBAR* - Se cambia el logo de png a SVG
+* **[FIXED]** *NAVBAR* - Acentuar el menú de PRODUCTOS como parte nueva de la oferta de Veco.
+* **[UPDATE]** *INDEX* - Cambios de gramatica, intencion y ortografia
+* **[UPDATE]** *INDEX* - Que no aparezca la imagen que está ahorita del casco y las herramientas.
+* **[NEW!]** *PRODUCTOS* - Agregar el tanque TANKFUEL 12000L
+* **[UPDATE]** *INDEX* - Banners Actualizados
+* **[FIXED]** *INDEX* - Reparados Links Rotos
+* **[NEW!]** *PRODUCTOS* - Excel con las características básicas de cada equipo
+* **[UPDATE]** *PRODUCTOS* - Productos Actualizados.
+
 ## 0.1.1 - *Veco Elders*
 
 Revisiones de la version entregables:

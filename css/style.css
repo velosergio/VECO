@@ -613,8 +613,32 @@ iframe {
 
 /* End Header area css
 ============================================================================================ */
-/* Main Slider area css
-============================================================================================ */
+/* Carousel Bootstrap */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #79B51D;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #79B51D;
+}
+/* Carousel Caption */
+.carousel-caption .carousel-indicators .carousel-inner .carousel-item .d-none .d-md-block {
+  color: #79B51D;
+}
+/* Main Slider area css */
 .main_slider_area .rev_slider .tp-revslider-mainul li .slotholder {
   position: relative;
 }
@@ -3479,7 +3503,7 @@ height: 100%;
 /* Work area css
 ============================================================================================ */
 .work_area {
-  background: url(../img/work-bg.jpg) no-repeat scroll center center;
+  background: url(../img/parallax_web.jpg) no-repeat scroll center center;
   background-size: cover;
   position: relative;
   z-index: 2;
