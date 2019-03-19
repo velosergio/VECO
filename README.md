@@ -1,5 +1,15 @@
 # VECO Rental
 
+## 0.1.2 - *Madness Deploy*
+
+Madness Deploy es la primera version de la fase de optimización de la pagina, se han corregido errores conocidos y mejorado los tiempos de carga, asi mismo se redujo el tamaño del repositorio eliminando contenido que no estaba siendo utilizado, tambien es la version con la descripcion mas larga.
+
+* **[UPDATE]** *INDEX* - Se optimizo el banner y se agrego el item transporte
+* **[DELETE]** *MASTER* - Se elimino archivos de la plantilla que no se usan
+* **[UPDATE]** *INDEX* - Se corrigio errores ortograficos
+* **[NEW!]** *USADOS* - Nueva pagina para equipos usados
+* **[FIXED]** *MASTER* - Se solucionaron problemas conocidos
+
 ## 0.1.2 - *Veco Delivery*
 
 Cambios para 0.1.2:
@@ -63,7 +73,7 @@ Ajustamos todo para la primera version entregable, nos enfocamos en esta revisio
 
 Presentamos la version preliminar de la pagina, esta version incluye cambios de forma y de fondo, luego de la revision con la junta de veco rental
 
-* **[DELETE]** Eliminada la pleca verde :(
+* **[DELETE]** Eliminada la barra de navegacion superior verde
 * **[DELETE]** Eliminados archivos que no se usaban en el proyecto
 * **[UPDATE]** Sliders del carrousel
 * **[NEW!]** Formulario de contacto usando modal de Bootstrap 4
