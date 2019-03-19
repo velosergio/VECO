@@ -1,6 +1,6 @@
 # VECO Rental
 
-## 0.1.2 - *Madness Deploy*
+## 0.1.3 - *Madness Deploy*
 
 Madness Deploy es la primera version de la fase de optimización de la pagina, se han corregido errores conocidos y mejorado los tiempos de carga, asi mismo se redujo el tamaño del repositorio eliminando contenido que no estaba siendo utilizado, tambien es la version con la descripcion mas larga.
 
