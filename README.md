@@ -1,5 +1,25 @@
 # VECO Rental
 
+## 0.1.4 - *Veco Bones*
+
+Esta actualizacion incluye soluciones generales y de organizacion.
+
+* **[UPDATE]** *INDEX* - Se optimizo el banner y se agrego el item transporte.
+* **[UPDATE]** *PRODUCTOS* - Se Resalta Productos en vez de Equipos.
+* **[DELETE]** *PRODUCTOS* - Se Elimina el CarryTank 330 - Diesel.
+* **[DELETE]** *PRODUCTOS* - Se Elimina el Emilcaddy 55 - Gasolina.
+* **[UPDATE]** *PRODUCTOS* - Se Actualiza el Emilcaddy 110.
+* **[NEW!]** *PRODUCTOS* - Nuevo item: Emilcaddy 110 - Diesel.
+* **[UPDATE]** *INDEX* - Se corrige gramatica.
+* **[UPDATE]** *EQUIPOS* - Los Manlift ahora usan una misma imagen.
+* **[FIXED]** *EQUIPOS* - Minotou estaba en la categoria equivocada
+* **[DELETE]** *EQUIPOS* - Se Elimina la grua grove.
+* **[UPDATE]** *EQUIPOS* - Se Actualiza el nombre de la grua telescopica SANY STC.
+* **[UPDATE]** *EQUIPOS* - Se Actualiza la imagen del camion cuatro manos.
+* **[NEW!]** *EQUIPOS* - Nuevo item: TRACTOCAMIÓN CAMABAJA DN355 CUELLO DESMONTABLE (35 T), Camabaja + Camion.
+* **[DELETE]** *EQUIPOS* - Se Elimina Fichas Tecnicas.
+* **[UPDATE]** *EQUIPOS* - Se Organizan los productos por el excel.
+
 ## 0.1.3 - *Madness Deploy*
 
 Madness Deploy es la primera version de la fase de optimización de la pagina, se han corregido errores conocidos y mejorado los tiempos de carga, asi mismo se redujo el tamaño del repositorio eliminando contenido que no estaba siendo utilizado, tambien es la version con la descripcion mas larga.
