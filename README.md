@@ -1,5 +1,18 @@
 # VECO Rental
 
+## 0.1.5 - *Platen Reload*
+
+Esta actualización agrega proyectos realizados se optimiza los tiempos de carga y soluciona problemas conocidos.
+
+* **[FIXED]** *INDEX* - Solucionado el problema del acordeón.
+* **[UPDATE]** *INDEX* - Botón de instagram mucho mas grande.
+* **[UPDATE]** *MASTER* - Se el formato de escritura de los HTML y CSS usando 'BEAUTIFY' de Visual Studio Code.
+* **[UPDATE]** *INDEX* - Se justifica la historia de VECO.
+* **[UPDATE]** *MASTER* - Se optimizan las imágenes para web.
+* **[FIXED]** *EQUIPOS* - TRACTOCAMIÓN CAMABAJA imagen y categoría equivocada.
+* **[FIXED]** *PRODUCTOS* - EL MANLIFT TELESCÓPICO 135 FT 41 M (HAULOTTE HB135JRT).
+* **[NEW!]** *PROYECTOS* - Ahora se muestran en el index los proyectos de VECO.
+
 ## 0.1.4 - *Veco Bones*
 
 Esta actualizacion incluye soluciones generales y de organizacion.
