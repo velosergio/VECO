@@ -1,5 +1,11 @@
 # VECO Rental
 
+## 0.1.6 - *O Update*
+
+Actualizacion exclusiva de ortografia y gramatica
+
+* **[UPDATE]** *MASTER* - Correcciones en ortografia.
+
 ## 0.1.5 - *Platen Reload*
 
 Esta actualización agrega proyectos realizados se optimiza los tiempos de carga y soluciona problemas conocidos.

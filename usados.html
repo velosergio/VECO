@@ -81,24 +81,26 @@
                 <p>Contamos con una amplia gama de maquinaria para diferentes industrias en los sectores de Petróleo,
                     Infraestructura, Ingeniería civil, Entretenimiento, Minería, entre otros.</p>
                 <form id="escribenosform" name="formEscribenos" method="post" action="php/escribenos.php">
-                    <div class="form-group">
-                        <label for="name" class="text-white">¿Como te llamas?</label>
-                        <input type="text" class="form-control" id="name" placeholder="Tu Nombre" name="nombre">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="name">¿Cómo se llama?...</label>
+                            <input type="text" class="form-control" id="name" placeholder="Su Nombre" name="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">¿Cuál es su número de teléfono?...</label>
+                            <input type="number" class="form-control" id="phone" placeholder="Su número de teléfono"
+                                name="telefono">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Su correo electrónico...</label>
+                            <input type="email" class="form-control" id="email" placeholder="Su email" name="correo">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">¿Qué requiere?</label>
+                            <textarea class="form-control" rows="5" id="mensaje" name="mensaje"></textarea>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="phone" class="text-white">¿Cual es tu numero de telefono?</label>
-                        <input type="number" class="form-control" id="phone" placeholder="Tu Numero de telefono"
-                            name="telefono">
-                    </div>
-                    <div class="form-group">
-                        <label for="email" class="text-white">Tu correo Electronico</label>
-                        <input type="email" class="form-control" id="email" placeholder="Tu email" name="correo">
-                    </div>
-                    <div class="form-group">
-                        <label for="mensaje" class="text-white">¿Que requieres?</label>
-                        <textarea class="form-control" rows="5" id="mensaje" name="mensaje"></textarea>
-                    </div>
-                    <div class="border-top-0 d-flex justify-content-center">
+                    <div class="modal-footer border-top-0 d-flex justify-content-center">
                         <button type="submit" class="btn btn-success">Enviar</button>
                     </div>
                 </form>
@@ -116,23 +118,26 @@
                             <img src="img/logo-light.png" alt="">
                             <p>Contamos con una amplia gama de maquinaria para diferentes industrias en los sectores de
                                 Petróleo, Infraestructura, Ingeniería civil, Entretenimiento, Minería, entre otros.</p>
+                            <a class="get_btn" href="https://instagram.com/vecorentalcol/" target="_blank"><i
+                                    class="fab fa-instagram"></i> Instagram</a>
                         </aside>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <aside class="f_widget address_widget">
                             <div class="f_w_title">
-                                <h3>Síguenos en Facebook:</h3><br />
+                                <h3>SÍGANOS EN NUESTRAS REDES:</h3><br />
                                 <iframe
-                                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FVecoRental%2F&tabs&width=340&height=180&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1606910752931605"
-                                    width="340" height="180" style="border:none;overflow:hidden"></iframe>
+                                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FVecorental-1360659477436597%2F&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1606910752931605"
+                                    width="340" height="154" style="border:none;overflow:hidden"
+                                    scrolling="no"></iframe>
                             </div>
                         </aside>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <aside class="f_widget give_us_widget">
-                            <a
-                                href="https://wa.me/573167408000?text=Hola!%20%20escribo%20desde%20la%20web%20de%20vecorental">
-                                <h5>Escríbenos!</h5>
+                            <a href="https://wa.me/573167408000?text=Hola!%20%20escribo%20desde%20la%20web%20de%20vecorental"
+                                target="_blank">
+                                <h5>CONTÁCTENOS!</h5>
                                 <h4>(+57) 316 740 80 00</h4>
                             </a>
                             <a class="get_btn"
@@ -142,7 +147,7 @@
                     </div>
                 </div>
             </div>
-            <h5 style="color:#FFF; text-align: center;">Copyright &copy;<script>
+            <h5 style="color:#FFF; text-align: center;">VECO RENTAL &copy;<script>
                     document.write(new Date().getFullYear());
                 </script> Todos los derechos son Reservados.</h5>
         </div>
