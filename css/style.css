@@ -626,6 +626,20 @@ iframe {
   margin-top: 0px;
 }
 
+/*Botones Flotantes*/
+.flotantew {
+  display: scroll;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.flotante {
+  display: scroll;
+  position: fixed;
+  top: 200px;
+  left: 0px;
+}
 /* End Header area css
 ============================================================================================ */
 /* Carousel Bootstrap */
@@ -639,14 +653,14 @@ iframe {
 
 .carousel-control-next-icon:after {
   content: '>';
-  font-size: 55px;
+  font-size: 80px;
   color: #79B51D;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
-  font-size: 55px;
-  color: #79B51D;
+  font-size: 80px;
+  color: #11277C;
 }
 
 /* Carousel Caption */

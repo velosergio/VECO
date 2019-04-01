@@ -1,5 +1,15 @@
 # VECO Rental
 
+## 0.1.7 - *Green Pasion Reload*
+
+Actualizacion semanal.
+
+* **[NEW!]** *MASTER* - Nuevo icono para la Navbar, ahora con el slogan.
+* **[NEW!]** *GRACIAS* - Nueva Pagina para agradecer por contactar a vecorental.
+* **[FIXED]** *EQUIPOS* - Se cambiaron los valores de algunos items.
+* **[UPDATE]** *INDEX* - Actualizacion en el Slider.
+* **[NEW!]** *INDEX* - WhatsApp y Correo Flotantes.
+
 ## 0.1.6 - *O Update*
 
 Actualizacion exclusiva de ortografia y gramatica
