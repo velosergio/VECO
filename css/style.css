@@ -637,7 +637,7 @@ iframe {
 .flotante {
   display: scroll;
   position: fixed;
-  top: 200px;
+  bottom: 30px;
   left: 0px;
 }
 /* End Header area css

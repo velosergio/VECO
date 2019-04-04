@@ -1,6 +1,6 @@
 # VECO Rental
 
-## 0.1.7 - *Green Pasion Reload*
+## 0.1.7b - *Green Pasion Reload*
 
 Actualizacion semanal.
 
@@ -9,6 +9,7 @@ Actualizacion semanal.
 * **[FIXED]** *EQUIPOS* - Se cambiaron los valores de algunos items.
 * **[UPDATE]** *INDEX* - Actualizacion en el Slider.
 * **[NEW!]** *INDEX* - WhatsApp y Correo Flotantes.
+* **[NEW!]** *CONTACT* - Nuevos campos al formulario de contacto.
 
 ## 0.1.6 - *O Update*
 
