@@ -1,5 +1,12 @@
 # VECO Rental
 
+## 0.1.8 - *Board Of Partners Reload*
+
+* **[NEW!]** *SIDEBAR* - Se agrupan los iconos de enviar correo, escribir a whatsapp e inicio corporativo.
+* **[UPDATE]** *VIDEO* - Se actualiza el video a una version HTML5 en local.
+* **[UPDATE]** *EQUIPOS* - Se actualiza el item FASSI F380B.
+* **[FIXED]** *MASTER* - Se corrigen errores conocidos.
+
 ## 0.1.7b - *Green Pasion Reload*
 
 Actualizacion semanal.

@@ -627,19 +627,27 @@ iframe {
 }
 
 /*Botones Flotantes*/
+.flotantem {
+  display: scroll;
+  position: fixed;
+  bottom: 130px;
+  right: 10px;
+}
+
 .flotantew {
   display: scroll;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 80px;
+  right: 10px;
 }
 
-.flotante {
+.flotantec {
   display: scroll;
   position: fixed;
   bottom: 30px;
-  left: 0px;
+  right: 10px;
 }
+
 /* End Header area css
 ============================================================================================ */
 /* Carousel Bootstrap */
@@ -1480,7 +1488,7 @@ div.polaroid {
 }
 
 .chose_video_area .chose_left_text {
-  width: calc(50% + 15px);
+  width: calc(40% + 15px);
   float: left;
   overflow: hidden;
 }
@@ -1491,7 +1499,7 @@ div.polaroid {
 }
 
 .chose_video_area .chose_video_right {
-  width: calc(50% - 15px);
+  width: calc(60% - 15px);
   float: right;
   overflow: hidden;
 }
@@ -3212,25 +3220,6 @@ div.polaroid {
 ============================================================================================ */
 /* Clients area css
 ============================================================================================ */
-.video-responsive {
-  position: relative;
-  padding-bottom: 30%;
-  /* 16/9 ratio */
-  padding-top: 15px;
-  /* IE6 workaround*/
-  height: 0;
-  overflow: hidden;
-}
-
-.video-responsive iframe,
-.video-responsive object,
-.video-responsive embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 
 .banner_area {
   background: url(../img/banner-bg.jpg) no-repeat scroll center center;

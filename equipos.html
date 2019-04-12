@@ -55,7 +55,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img alt="Veco Rental" src="img/logo.svg" style="width:100%">
+                <img alt="Veco Rental" src="img/logo-navbar.svg" style="width:80%">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navMenu"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -81,12 +81,17 @@
     </nav>
     <!-- Fin de Navegacion -->
     <!-- Banner -->
-    <section class="video-responsive">
-        <iframe src="https://www.youtube-nocookie.com/embed/B_HU_lww_c4" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section>
+        <div class="container" style="text-align: center;">
+            <video width="100%" controls>
+                <source src="video/veco.mp4" type="video/mp4">
+                <source src="video/veco.webm" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
     </section>
     <!-- Galeria -->
-    <section class="our_project2_area our_project_three_column">
+    <section class="our_project2_area our_project_three_column" id="galeria">
         <ul class="our_project_filter">
             <li class="active" data-filter="*"><a href="#">Todas</a></li>
             <li data-filter=".elevacion"><a href="#">Elevación</a></li>
@@ -409,7 +414,7 @@
             </div>
             <div class="col-md-4 col-sm-6 izaje" style="position: absolute; left: 438px; top: 1348px;">
                 <div class="project_item">
-                    <img src="img/equipos/izaje/FASSI F380.png" alt="" style="width: 100%">
+                    <img src="img/equipos/izaje/FASSI F380.jpg" alt="" style="width: 100%">
                     <div class="project_hover">
                         <div class="project_hover_inner">
                             <div class="project_hover_content">
@@ -707,9 +712,11 @@
     </section>
     <!-- Contacto -->
     <!-- Botones Flotantes -->
+    <a class='flotantem' data-toggle="modal" data-target="#escribenos"><img src='img/icon/mail.png'></a>
     <a class='flotantew' href='https://wa.me/573167408000?text=Hola!%20%20escribo%20desde%20la%20web%20de%20vecorental'
         target="_blank"><img src='img/icon/whatsapp.png'></a>
-    <a class='flotante' data-toggle="modal" data-target="#escribenos"><img src='img/icon/mail.png'></a>
+    <a class='flotantec' href='https://vecorental.mymailsrvr.com/a/index.php' target="_blank"><img
+            src='img/icon/login.png'></a>
     <!-- Fin del Boton Flotante -->
     <!-- Footer Area -->
     <footer class="footer_area">
@@ -750,7 +757,8 @@
                     </div>
                 </div>
             </div>
-            <h5 style="color:#FFF; text-align: center;">VECO RENTAL &copy;<script>
+            <h5 style="color:#FFF; text-align: center;">VECO RENTAL &copy;
+                <script>
                     document.write(new Date().getFullYear());
                 </script> Todos los derechos son Reservados.</h5>
         </div>
@@ -759,13 +767,13 @@
     <!-- Bootstrap 4.3 Dependencias -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+        </script>
     <!-- Galerias en OWL -->
     <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
     <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
