@@ -1,5 +1,10 @@
 # VECO Rental
 
+## 0.1.9 - *Security Update*
+
+* **[NEW!]** *CAPTCHA* - Se instala Google reCaptcha v2.
+* **[FIXED]** *MASTER* - Se corrigen errores conocidos.
+
 ## 0.1.8 - *Board Of Partners Reload*
 
 * **[NEW!]** *SIDEBAR* - Se agrupan los iconos de enviar correo, escribir a whatsapp e inicio corporativo.

@@ -32,7 +32,6 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135909100-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
@@ -48,6 +47,7 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body data-gr-c-s-loaded="true">
@@ -863,6 +863,11 @@
                         <div class="form-group">
                             <label for="mensaje">Su solicitud</label>
                             <textarea class="form-control" rows="5" id="mensaje" name="mensaje"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">¿Eres un robot?</label>
+                            <div class="g-recaptcha" data-sitekey="6Le4jJ8UAAAAALCF5uq31VeS07iI1djjAJhTxWVL" ></div>
+                            <input class="form-control d-none" data-recaptcha="true" required data-error="Porfavor completa el Captcha">
                         </div>
                     </div>
                     <div class="modal-footer border-top-0 d-flex justify-content-center">
